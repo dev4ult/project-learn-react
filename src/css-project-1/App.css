@@ -1,0 +1,56 @@
+.container {
+  width: 90%;
+  margin-inline: auto;
+  max-width: 1050px;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar {
+  background-color: rgb(4, 25, 35);
+  padding-block: 1rem;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav--title {
+  margin-left: auto;
+  color: white;
+}
+
+.react-logo {
+  width: 50px;
+}
+
+.text--logo {
+  color: #61dafb;
+}
+
+.main--content {
+  text-align: left;
+  color: white;
+}
+
+.main--title {
+  font-size: 4rem;
+  margin-block: 2rem;
+}
+
+.fact--list {
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
+.fact--list li {
+  margin-bottom: 1rem;
+}
+
+.fact--list li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}

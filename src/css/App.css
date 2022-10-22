@@ -1,56 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .container {
   width: 90%;
+  max-width: 1100px;
   margin-inline: auto;
-  max-width: 1050px;
 }
 
 .flex {
   display: flex;
 }
 
-.navbar {
-  background-color: rgb(4, 25, 35);
-  padding-block: 1rem;
+img {
+  max-width: 100%;
 }
 
-.navbar .container {
-  display: flex;
-  align-items: center;
+nav {
+  padding-block: 20px;
+  box-shadow: 0 3px 5px 0 rgb(218, 218, 218);
 }
 
-.nav--title {
-  margin-left: auto;
-  color: white;
+.logo {
+  width: 90px;
 }
 
-.react-logo {
-  width: 50px;
+header {
+  flex-direction: column;
 }
 
-.text--logo {
-  color: #61dafb;
-}
-
-.main--content {
-  text-align: left;
-  color: white;
-}
-
-.main--title {
-  font-size: 4rem;
+.hero-image {
   margin-block: 2rem;
-}
-
-.fact--list {
-  font-size: 1.5rem;
-  padding-left: 3rem;
-}
-
-.fact--list li {
-  margin-bottom: 1rem;
-}
-
-.fact--list li::marker {
-  color: #61dafb;
-  font-size: 1.4rem;
+  flex-grow: 0;
+  flex-shrink: 1;
+  align-self: center;
 }

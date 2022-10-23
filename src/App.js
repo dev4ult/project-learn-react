@@ -1,6 +1,5 @@
 import './css/App.css';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import Main from './components/Main';
 
 function App() {
@@ -11,13 +10,21 @@ function App() {
   //     <Main />
   //   </div>
   // );
+  // =====================
+  // project 2
+  //   return (
+  //     <>
+  //       <Navbar />
+  //       <Hero />
+  //       <Main />
+  //     </>
+  //   );
 
   return (
-    <>
+    <div className="App">
       <Navbar />
-      <Hero />
       <Main />
-    </>
+    </div>
   );
 }
 

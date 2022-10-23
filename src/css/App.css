@@ -33,3 +33,44 @@ header {
   flex-shrink: 1;
   align-self: center;
 }
+
+main {
+  gap: 2rem;
+  overflow-x: hidden;
+  margin-top: 2rem;
+}
+
+.card-pic {
+  min-width: 250px;
+  height: 350px;
+  background-size: cover;
+}
+
+.card-body {
+  margin-top: 0.5rem;
+}
+
+.card-stats {
+  align-items: center;
+}
+
+.star-logo {
+  width: 18px;
+  height: 16px;
+}
+
+.card-rating {
+  margin-inline: 0.3rem;
+}
+
+.card-count {
+  color: rgb(141, 141, 141);
+}
+
+.card-desc {
+  margin-block: 0.3rem;
+}
+
+.card-price span {
+  font-weight: 600;
+}

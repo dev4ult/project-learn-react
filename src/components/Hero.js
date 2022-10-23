@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../images/hero-airbnb.png';
+import heroImage from '../images/project-2/hero-airbnb.png';
 
 export default function Hero() {
   return (

@@ -33,14 +33,8 @@ export default function Main() {
   ];
 
   const cards = cardList.map((card) => {
-    return <Card src={card.src} rating={card.rating} count={card.count} desc={card.desc} price={card.price} />;
+    return <Card item={card} />;
   });
 
-  return (
-    <main className="container flex">
-      {cards[0]}
-      {cards[1]}
-      {cards[2]}
-    </main>
-  );
+  return <main className="container flex">{cards}</main>;
 }

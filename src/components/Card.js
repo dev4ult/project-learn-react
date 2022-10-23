@@ -9,7 +9,9 @@ export default function Card(props) {
         <div className="card-stats flex">
           <img className="star-logo" src={star} alt="star logo" />
           <span className="card-rating">{props.rating}</span>
-          <span className="card-count">{props.count}</span>
+          <span className="card-count">
+            ({props.count}) . {props.country}
+          </span>
         </div>
         <p className="card-desc">{props.desc}</p>
         <p className="card-price">

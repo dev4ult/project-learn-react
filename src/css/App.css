@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: fit-content;
+  background-color: #1a1b21;
+  max-width: 317px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.profile-pic {
+  object-fit: cover;
+}
+
+.card-body {
+  width: 85%;
+  margin-inline: auto;
+}
+
+.who-me {
+  text-align: center;
+}
+
+.person-name {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.job-title {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #f3bf99;
+  margin-bottom: 0.5rem;
+}
+
+.website {
+  font-size: 10.4px;
+  font-weight: 400;
+  color: white;
+}
+
+.email-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  font-size: 14px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding-block: 0.4rem;
+  background-color: white;
+  color: black;
+}
+
+.desc-section {
+  margin-top: 2rem;
+}
+
+.interests {
+  margin-top: 1rem;
+}
+
+.desc-title {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.desc-paragraph {
+  font-size: 10.24px;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+.social-media {
+  background-color: #161619;
+  margin-top: 1rem;
+}
+
+.socmed-list {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  padding-block: 0.6rem;
+}

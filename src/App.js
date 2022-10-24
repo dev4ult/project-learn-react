@@ -1,6 +1,5 @@
 import './css/App.css';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
+import Card from './components/Card';
 
 function App() {
   // project 1
@@ -19,11 +18,16 @@ function App() {
   //       <Main />
   //     </>
   //   );
-
+  // project 3
+  // return (
+  //   <div className="App">
+  //     <Navbar />
+  //     <Main />
+  //   </div>
+  // );
   return (
     <div className="App">
-      <Navbar />
-      <Main />
+      <Card />
     </div>
   );
 }

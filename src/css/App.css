@@ -47,7 +47,7 @@ input[type='text'] {
   width: 45%;
 }
 
-input[type='submit'] {
+.get-img-btn {
   background: linear-gradient(90deg, #672280, #a626d3);
   width: 100%;
   margin-top: 2rem;
@@ -58,4 +58,17 @@ input[type='submit'] {
   color: white;
   font-weight: 600;
   cursor: pointer;
+}
+
+.get-img-btn:active {
+  background: linear-gradient(90deg, #663b76, #b87ece);
+}
+
+.meme-container {
+  margin-top: 3rem;
+}
+
+#place-meme-img {
+  object-fit: cover;
+  width: 100%;
 }

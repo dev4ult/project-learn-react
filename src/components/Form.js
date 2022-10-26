@@ -3,15 +3,12 @@ import Meme from './Meme';
 import memesData from '../memesData';
 
 export default function Form() {
-  const [url, setUrl] = React.useState('https://i.imgflip.com/30b1gx.jpg');
+  const [url, setUrl] = React.useState('https://i.imgflip.com/3lmzyx.jpg');
 
   function getMemeImage() {
     const memesArray = memesData.data.memes;
     const randomNumber = Math.floor(Math.random() * memesArray.length);
     setUrl(memesArray[randomNumber].url);
-
-    const imgContainer = document.querySelector('#place-meme-img');
-    imgContainer.setAttribute('src', url);
   }
 
   return (
@@ -23,7 +20,7 @@ export default function Form() {
       <button className="get-img-btn" onClick={getMemeImage}>
         Get a new meme image
       </button>
-      <Meme url="https://i.imgflip.com/30b1gx.jpg" />
+      <Meme url={url} />
     </div>
   );
 }

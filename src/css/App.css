@@ -65,7 +65,27 @@ input[type='text'] {
 }
 
 .meme-container {
+  position: relative;
   margin-top: 3rem;
+}
+
+.top-text,
+.bottom-text {
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 2px;
+}
+
+.top-text {
+  top: 3%;
+}
+
+.bottom-text {
+  bottom: 3%;
 }
 
 #place-meme-img {

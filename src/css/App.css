@@ -71,6 +71,7 @@ input[type='text'] {
 
 .top-text,
 .bottom-text {
+  text-transform: uppercase;
   position: absolute;
   color: white;
   left: 50%;

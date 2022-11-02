@@ -1,10 +1,15 @@
 import React from 'react';
-import memesData from '../memesData';
 
 export default function Meme(props) {
   const [memeImage, setMemeImage] = React.useState('https://i.imgflip.com/3lmzyx.jpg');
 
-  const [allMemeImages, setAllMemeImages] = React.useState(memesData);
+  const [allMemeImages, setAllMemeImages] = React.useState({});
+
+  React.useEffect(() => {
+    fetch('https://api.imgflip.com/get_memes')
+      .then((res) => res.json())
+      .then((data) => setAllMemeImages(data));
+  }, []);
 
   function getMemeImage() {
     const memesArray = allMemeImages.data.memes;

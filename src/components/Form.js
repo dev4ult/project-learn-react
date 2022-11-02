@@ -11,7 +11,10 @@ export default function Form() {
     const { name, value } = event.target;
 
     setFormData((prevFormData) => {
-      return { ...prevFormData, [name]: value };
+      return {
+        ...prevFormData,
+        [name]: value,
+      };
     });
   }
 
